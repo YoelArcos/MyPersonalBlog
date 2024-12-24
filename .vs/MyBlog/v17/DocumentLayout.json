@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\index.html",
+              "RelativeDocumentMoniker": "MyBlog\\src\\index.html",
+              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\index.html",
+              "RelativeToolTip": "MyBlog\\src\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-24T15:11:42.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "home.component.html",
               "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\home\\home.component.html",
               "RelativeDocumentMoniker": "MyBlog\\src\\app\\home\\home.component.html",
@@ -34,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "angular.json",
               "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\angular.json",
               "RelativeDocumentMoniker": "MyBlog\\angular.json",
@@ -42,8 +59,7 @@
               "RelativeToolTip": "MyBlog\\angular.json",
               "ViewState": "AQIAABMAAAAAAAAAAAAkwBkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-24T13:26:48.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T13:26:48.452Z"
             }
           ]
         }
