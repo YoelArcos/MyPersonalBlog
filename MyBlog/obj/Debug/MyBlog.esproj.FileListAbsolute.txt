@@ -1,1 +1,2 @@
 C:\Users\Yoela\OneDrive\Escritorio\Meine Sachen\Mein Portfolio projekt\MyBlog\MyBlog\obj\Debug\MyBlog.esproj.CoreCompileInputs.cache
+C:\Users\Yoela\OneDrive\Escritorio\Meine Sachen\Mein Portfolio projekt\MyPersonalBlog\MyBlog\obj\Debug\MyBlog.esproj.CoreCompileInputs.cache
