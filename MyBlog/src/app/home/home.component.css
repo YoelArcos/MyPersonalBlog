@@ -97,7 +97,7 @@ body {
     border-radius: 50%;
     border: 12px solid #4ade80;
     box-shadow: 0 0 60px rgba(72, 187, 120, 0.7);
-    background: url('./NewFolder/CV_Bild.jpg') no-repeat center center;
+    background: url('./NewFolder/CV_Bild2.jpeg') no-repeat center center;
     background-size: cover;
     animation: float 3s ease-in-out infinite;
   }
@@ -312,10 +312,10 @@ body {
     -webkit-text-fill-color: transparent;
   }
 
-  .content {
+  .content-div {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
   }
 
@@ -334,6 +334,24 @@ body {
     line-height: 1.8;
     color: #e5e7eb;
   }
+
+.button-aboutprojects {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg, #3b82f6, #9333ea, #ef4444);
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.4s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.button-aboutprojects:hover {
+  background: linear-gradient(90deg, #ef4444, #9333ea, #3b82f6);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
 
   /* Projects Section */
   .projects {
@@ -420,10 +438,10 @@ body {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: #e5e7eb;
-    min-height: 50px; /* Ensures all titles have the same height */
+    min-height: 50px; 
     display: flex;
-    align-items: center; /* Vertically centers shorter titles */
-    justify-content: center; /* Horizontally centers text */
+    align-items: center; 
+    justify-content: center; 
   }
 
   /* Ensure consistent height for project cards */
@@ -433,10 +451,10 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     padding: 1.5rem;
     width: 500px;
-    height: auto; /* Allow cards to adjust dynamically based on content */
+    height: auto; 
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column;
+    align-items: center; 
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
@@ -471,6 +489,10 @@ body {
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
     }
 
+
+
+
+
   /* Color Fade Animation */
   @keyframes fadeColor {
     0% {
@@ -484,6 +506,94 @@ body {
     100% {
       background-position: 0% 50%;
     }
+  }
+
+/* CSS for Programming Languages section */
+.languages {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #1e293b, #9333ea, #f43f5e, #3b82f6);
+  background-size: 200% 200%;
+  animation: fadeColor 8s infinite ease-in-out;
+  color: white;
+}
+
+.languages-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.languages .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, #9333ea, #4ade80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.languages-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.language-card {
+  width: 150px;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  .language-card.html {
+    background: url('./NewFolder/csharp (2).svg') no-repeat center center;
+    background-size: contain;
+  }
+
+  .language-card.css {
+    background: url('./NewFolder/java.svg') no-repeat center center;
+    background-size: contain;
+  }
+
+  .language-card.javascript {
+    background: url('./NewFolder/html.svg') no-repeat center center;
+    background-size: contain;
+  }
+
+  .language-card.csharp {
+    background: url('./NewFolder/css.svg') no-repeat center center;
+    background-size: contain;
+  }
+
+  .language-card.java {
+    background: url('./NewFolder/angular.svg') no-repeat center center;
+    background-size: contain;
+  }
+
+  .language-card.react {
+    background: url('./NewFolder/kali.svg') no-repeat center center;
+    background-size: contain;
+  }
+
+  .language-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+
+  .language-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
   }
 
   /* Contact Section */
@@ -515,7 +625,7 @@ body {
   .content {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: space-between;
     align-items: center;
   }
@@ -583,7 +693,7 @@ body {
 
   /* Cursor hidding */
   body {
-    cursor: none; /* Hides the system cursor */
+    cursor: none; 
   }
 
   #cursor {
@@ -611,8 +721,8 @@ body {
   /* Hero Section */
   .hero {
     display: flex;
-    flex-direction: column; /* Stacks items vertically */
-    align-items: center; /* Centers all items horizontally */
+    flex-direction: column; 
+    align-items: center; 
     padding: 2rem 1rem;
   }
 
@@ -637,10 +747,10 @@ body {
 
 
   .profile-picture {
-    order: -1; /* Moves the profile picture above in the column layout */
-    margin-bottom: 0.5rem; /* Optional spacing */
-    margin-top: 13rem; /* Adjust this to position it higher or lower */
-    align-self: center; /* Centers the image horizontally */
+    order: -1; 
+    margin-bottom: 0.5rem; 
+    margin-top: 13rem; 
+    align-self: center; 
   }
 
 
@@ -686,11 +796,11 @@ body {
   /* Projects Section */
   .projects {
     padding: 3rem 1rem;
-    background-size: 150% 150%; /* Reduce animation space for smaller screens */
+    background-size: 150% 150%; 
   }
 
   .project-card {
-    width: 100%; /* Make cards full-width */
+    width: 100%; 
   }
 
   .projects-grid {
