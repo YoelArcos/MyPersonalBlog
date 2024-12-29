@@ -7,16 +7,14 @@
   <header class="navbar">
     <h2>My Portfolio</h2>
     <ul>
-      <li><a href="#About">About Me</a></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li><a href="#Languages">Interests</a></li>
-      <li><a href="#Contact">Contact</a></li>
+      <li><a href="#About">{{ 'nav.about' | translate }}</a></li>
+      <li><a href="#Projects">{{ 'nav.projects' | translate }}</a></li>
+      <li><a href="#Languages">{{ 'nav.interests' | translate }}</a></li>
+      <li><a href="#Contact">{{ 'nav.contact' | translate }}</a></li>
 
-      <button class="language-buttons">DE</button>
-      <button class="language-buttons">EN</button>
+      <button class="language-buttons" (click)="switchLanguage('de')">DE</button>
+      <button class="language-buttons" (click)="switchLanguage('en')">EN</button>
     </ul>
-
-    
   </header>
 
   <!-- Introduction Landing page -->
@@ -25,13 +23,9 @@
     <div class="hero-text">
       <h1>&lt;/Code, Create, Innovate&gt;</h1>
 
-      <h1>Hello, I'm Yoel Arcos Lopez</h1>
-      <p>
-        I'm deeply passionate and <strong>proud</strong> to be part of this exciting generation of technology.
-        <br />With endless opportunities to learn and discover, I thrive in a world where innovation knows no bounds.
-        Every day is an adventure and I’m inspired to create, explore, and grow in this dynamic field.
-      </p>
-      <a href="#About">Learn more about me</a>
+      <h1>{{ 'hero.subtitle' | translate }}</h1>
+      <p [innerHTML]="'hero.description' | translate"></p>
+      <a href="#About">{{ 'hero.button' | translate }}</a>
     </div>
     <div class="profile-picture"></div>
   </section>
@@ -39,35 +33,16 @@
   <!-- About me -->
   <section id="About" class="about">
     <div class="about-container">
-      <h1 class="title">About Me</h1>
+      <h1 class="title">{{ 'about.title' | translate }}</h1>
       <div class="content-div">
         <div class="profile-image"></div>
         <div class="text">
-          <p>
-            My journey as a software developer began when I decided to overcome my fears and pursue my dream of entering the IT world. <br />
-            Before starting my apprenticeship as an electrician, I always wanted to be an IT professional, imagining myself hacking or modding games.<br />
-            However, at 14 finding an apprenticeship was difficult, so I chose a path close to technology, becoming an electrician.<br />
-          </p>
-
-          <p>
-            After completing my 4-year apprenticeship, I worked for three more years, taking on roles like Construction Manager, handling projects, and supporting larger ones.<br />
-            Despite my achievements, I felt unfulfilled. I eventually realized I had buried my childhood dream of becoming an IT professional deep within me.
-          </p>
-
-          <p>
-            On August 24, 2023, I applied and began studying at WISS Schule für Wirtschaft Informatik Immobilien while starting an internship at <strong> <a href="https://www.softart.ch" target="_blank" style="color: #4ade80; text-decoration: none;">SoftART</a>.</strong> <br />
-            This was a turning point in my journey as a developer.<br />
-          </p>
-
-          <p>
-            At SoftART, I learned to prioritize software design before coding and gained valuable insights into scalable, structured development. <br />
-            My experience with <strong>Service-Oriented Architecture (SOA)</strong> and the teachings of Juval Löwy significantly shaped my mindset and skills, elevating me to a professional level.<br />
-          </p>
-
-          <p>
-            I’m grateful for the mentorship and moments that have defined my path in software development.bly grateful for the mentorship and the countless moments that shaped me into the developer I am today.
-          </p>
-          <a href="#Projects" class="button-aboutprojects">About my projects</a>
+          <p>{{ 'about.paragraph1' | translate }}</p>
+          <p>{{ 'about.paragraph2' | translate }}</p>
+          <p [innerHTML]="safeContent"></p>
+          <p [innerHTML]="'about.paragraph4' | translate"></p>
+          <p>{{ 'about.paragraph5' | translate }}</p>
+          <a href="#Projects" class="button-aboutprojects">{{ 'about.button' | translate }}</a>
         </div>
       </div>
     </div>
@@ -76,64 +51,37 @@
   <!-- About my projects -->
   <section id="Projects" class="projects">
     <div class="projects-container">
-      <h1 class="title"></h1>
+      <h1 class="title">{{ 'projects.title' | translate }}</h1>
       <div class="projects-grid">
 
         <div class="project-card">
-          <h2>Space Invaders</h2>
+          <h2>{{ 'projects.space_invaders.title' | translate }}</h2>
           <div id="spaceShooterpic"></div>
-          <p>
-            This was one of the first projects I worked on.<br />
-            It was developed in C# using the Visual Studio IDE.<br />
-            The GUI was created with Windows Forms. <br />
-            Why did I decide to make a game like this? Better question...<br /> why not! <br />
-            Everyone loves to play video games, especially those retro ones and I'm sure game development is or was once in a lifetime a big dream for every young programmer.
-          </p>
-
+          <p>{{ 'projects.space_invaders.description' | translate }}</p>
         </div>
 
         <div class="project-card">
-          <h2>Unity Snake</h2>
+          <h2>{{ 'projects.unity_snake.title' | translate }}</h2>
           <div id="snakeUnity"></div>
-          <p>
-            Game development has always fascinated me. <br />
-            I created a 2-player snake game in Unity with unique features <br />
-            like special apples, boosters, and potential AI snakes (AI still under construction).<br />
-            It was fun and taught me valuable concepts like some vector geometry.
-          </p>
-
+          <p>{{ 'projects.unity_snake.description' | translate }}</p>
         </div>
 
         <div class="project-card">
-          <h2>Internship Project <br /> Multi Calculator</h2>
+          <h2 [innerHTML]="'projects.multi_calculator.title' | translate "></h2>
           <div id="sacalc_functionview"></div>
-          <p>
-            During my internship at <a href="https://www.softart.ch" target="_blank" style="color: #4ade80; text-decoration: none;">SoftART</a>, <br />
-            I developed a calculator project in C# using WPF (Windows Presentation Foundation). <br />
-            The project followed a Service-Oriented Architecture (SOA) and utilized the MVVM (Model-View-ViewModel) pattern. <br />
-            It also supports computing and displaying various functions with the OxyPlot framework.
-          </p>
+          <p>{{ 'projects.multi_calculator.description' | translate }}</p>
         </div>
 
         <div class="project-card">
-          <h2>Fullstack application <br /> Tinder app mock up</h2>
+          <h2 [innerHTML]="'projects.tinder_mockup.title' | translate "></h2>
           <div id="tindermockup"></div>
-          <p>
-            I developed a full-stack application using React.js for the frontend and Java for the backend, with a persistent database to store "matches," login data, and other user information.
-            This application is not fully developed, as it was primarily a training exercise to understand how full-stack applications work.
-          </p>
-
+          <p>{{ 'projects.tinder_mockup.description' | translate }}</p>
         </div>
 
         <div class="project-card">
-          <h2>All Other Projects!</h2>
-          <p>
-            In my free time, I mainly work on new projects for fun and to stay up to date with new frameworks.<br />
-            Among these, I have worked with libraries such as I/O with FileStreams <br />
-            (for creating files, writing, pasting images, etc.), OxyPlot, and many more.
-            You can check out my other projects on my GitHub.
-          </p>
-          <a href="https://github.com/YoelArcos?tab=repositories" target="_blank" class="button">View My Projects on GitHub</a>
+          <h2>{{ 'projects.all_projects.title' | translate }}</h2>
+          <p>{{ 'projects.all_projects.description' | translate }}</p>
+          <a href="https://github.com/YoelArcos?tab=repositories" target="_blank" class="button">{{ 'projects.github_button' | translate }}</a>
         </div>
       </div>
     </div>
@@ -142,7 +90,7 @@
   <!-- Programming Languages Section -->
   <section id="Languages" class="languages">
     <div class="languages-container">
-      <h1 class="title">Interests</h1>
+      <h1 class="title">{{ 'languages.title' | translate }}</h1>
       <div class="languages-grid">
 
         <div class="language-card html"></div>
@@ -164,31 +112,26 @@
   <!-- Contact -->
   <section id="Contact" class="contact">
     <div class="contact-container">
-      <h1 class="title">Contact Me</h1>
+      <h1 class="title">{{ 'contact.title' | translate }}</h1>
       <div class="content">
         <div class="contact-text">
-          <p>
-            I'd love to hear from you! Whether you have a question, a project idea, or just want to connect, feel free to reach out.
-          </p>
-          <p>
-            You can contact me through the form below or directly via email at:
-            <a href="mailto:yoel.arcoslopez@hotmail.com" class="email-link">yoel.arcoslopez&commat;hotmail.com</a>.
-          </p>
+          <p>{{ 'contact.description1' | translate }}</p>
+          <p>{{ 'contact.description2' | translate }}</p>
+          <a href="mailto:yoel.arcoslopez@hotmail.com" class="email-link">yoel.arcoslopez&commat;hotmail.com</a>
         </div>
         <form action="https://formspree.io/f/xjkkkwrp" method="POST" class="contact-form">
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-          <button type="submit" class="button">Send Message</button>
+          <input type="text" name="name" placeholder="{{ 'contact.form_name' | translate }}" required />
+          <input type="email" name="email" placeholder="{{ 'contact.form_email' | translate }}" required />
+          <textarea name="message" placeholder="{{ 'contact.form_message' | translate }}" rows="5" required></textarea>
+          <button type="submit" class="button">{{ 'contact.email_button' | translate }}</button>
         </form>
-
       </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="footer">
-    <p>&copy; Yoel Arcos Lopez ~2024 My Portfolio. Built with Angular</p>
+    <p>{{ 'footer.text' | translate }}</p>
   </footer>
 </body>
 </html>

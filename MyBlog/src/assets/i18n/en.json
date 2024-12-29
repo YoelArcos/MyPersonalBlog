@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "about": "About Me",
+    "projects": "Projects",
+    "interests": "Interests",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "&lt;/Code, Create, Innovate&gt;",
+    "subtitle": "Hello, I'm Yoel Arcos Lopez",
+    "description": "I'm deeply passionate and <strong>proud</strong> to be part of this exciting generation of technology. With endless opportunities to learn and discover, I thrive in a world where innovation knows no bounds. Every day is an adventure and I’m inspired to create, explore, and grow in this dynamic field.",
+    "button": "Learn more about me"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "My journey as a software developer began when I decided to overcome my fears and pursue my dream of entering the IT world. Before starting my apprenticeship as an electrician, I always wanted to be an IT professional, imagining myself hacking or modding games. However, at 14 finding an apprenticeship was difficult, so I chose a path close to technology, becoming an electrician.",
+    "paragraph2": "After completing my 4-year apprenticeship, I worked for three more years, taking on roles like Construction Manager, handling projects, and supporting larger ones. Despite my achievements, I felt unfulfilled. I eventually realized I had buried my childhood dream of becoming an IT professional deep within me.",
+    "paragraph3": "On August 24, 2023, I applied and began studying at WISS Schule für Wirtschaft Informatik Immobilien while starting an internship at <a href='https://www.softart.ch' target='_blank' style='color: #4ade80; text-decoration: none;'><strong>SoftART</strong></a>. This was a turning point in my journey as a developer.",
+    "paragraph4": "At SoftART, I learned to prioritize software design before coding and gained valuable insights into scalable, structured development. My experience with <strong>Service-Oriented Architecture (SOA)</strong> and the teachings of Juval Löwy significantly shaped my mindset and skills, elevating me to a professional level.",
+    "paragraph5": "I’m incredibly grateful for the mentorship and moments that have defined my path in software development.",
+    "button": "About my projects"
+  },
+  "projects": {
+    "title": "Projects",
+    "space_invaders": {
+      "title": "Space Invaders",
+      "description": "This was one of the first projects I worked on. It was developed in C# using the Visual Studio IDE. The GUI was created with Windows Forms. Why did I decide to make a game like this? Better question... why not! Everyone loves to play video games, especially those retro ones and I'm sure game development is or was once in a lifetime a big dream for every young programmer."
+    },
+    "unity_snake": {
+      "title": "Unity Snake",
+      "description": "Game development has always fascinated me. I created a 2-player snake game in Unity with unique features like special apples, boosters, and potential AI snakes (AI still under construction). It was fun and taught me valuable concepts like some vector geometry."
+    },
+    "multi_calculator": {
+      "title": "Internship Project <br> SaCalc",
+      "description": "During my internship at SoftART, I developed a calculator project in C# using WPF (Windows Presentation Foundation). The project followed a Service-Oriented Architecture (SOA) and utilized the MVVM (Model-View-ViewModel) pattern. It also supports computing and displaying various functions with the OxyPlot framework."
+    },
+    "tinder_mockup": {
+      "title": "Fullstack Application <br> Tinder App Mock-Up",
+      "description": "I developed a full-stack application using React.js for the frontend and Java for the backend, with a persistent database to store matches, login data, and other user information. This application is not fully developed, as it was primarily a training exercise to understand how full-stack applications work."
+    },
+    "all_projects": {
+      "title": "All Other Projects",
+      "description": "In my free time, I mainly work on new projects for fun and to stay up to date with new frameworks. Among these, I have worked with libraries such as I/O with FileStreams (for creating files, writing, pasting images, etc.), OxyPlot, and many more. You can check out my other projects on my GitHub."
+    },
+    "github_button": "View My Projects on GitHub"
+  },
+
+  "languages": {
+    "title": "Interests"
+  },
+
+  "contact": {
+    "title": "Contact Me",
+    "description1": "I'd love to hear from you! Whether you have a question, a project idea, or just want to connect, feel free to reach out.",
+    "description2": "You can contact me through the form below or directly via email at:",
+    "email_button": "Send Message",
+    "form_name": "name",
+    "form_email": "email",
+    "form_message":  "message:"
+  },
+  "footer": {
+    "text": "© Yoel Arcos Lopez ~2024 My Portfolio. Built with Angular"
+  }
+}
+

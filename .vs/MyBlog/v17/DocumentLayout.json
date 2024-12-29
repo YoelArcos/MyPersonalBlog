@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\src\\assets\\i18n\\de.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\src\\assets\\i18n\\de.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\src\\assets\\i18n\\en.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\src\\assets\\i18n\\en.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\src\\app\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\src\\app\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\src\\app\\home\\home.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\src\\app\\home\\home.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|c:\\users\\yoela\\onedrive\\escritorio\\meine sachen\\mein portfolio projekt\\mypersonalblog\\myblog\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7811C6BA-2F20-41AC-803F-54F0C58937D1}|MyBlog\\MyBlog.esproj|solutionrelative:myblog\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,53 +49,138 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "home.component.css",
-              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\home\\home.component.css",
-              "RelativeDocumentMoniker": "MyBlog\\src\\app\\home\\home.component.css",
-              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\home\\home.component.css",
-              "RelativeToolTip": "MyBlog\\src\\app\\home\\home.component.css",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAAKIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-25T10:04:30.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "angular.json",
-              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\angular.json",
-              "RelativeDocumentMoniker": "MyBlog\\angular.json",
-              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\angular.json",
-              "RelativeToolTip": "MyBlog\\angular.json",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwDUAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-24T13:26:48.452Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
+          "DockedWidth": 264,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "de.json",
+              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\assets\\i18n\\de.json",
+              "RelativeDocumentMoniker": "MyBlog\\src\\assets\\i18n\\de.json",
+              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\assets\\i18n\\de.json",
+              "RelativeToolTip": "MyBlog\\src\\assets\\i18n\\de.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-28T16:42:41.38Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "en.json",
+              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\assets\\i18n\\en.json",
+              "RelativeDocumentMoniker": "MyBlog\\src\\assets\\i18n\\en.json",
+              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\assets\\i18n\\en.json",
+              "RelativeToolTip": "MyBlog\\src\\assets\\i18n\\en.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-28T17:07:22.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "MyBlog\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "MyBlog\\src\\app\\app-routing.module.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-28T16:44:32.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "MyBlog\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\app.component.html",
+              "RelativeToolTip": "MyBlog\\src\\app\\app.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-27T13:38:28.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "MyBlog\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\app.module.ts",
+              "RelativeToolTip": "MyBlog\\src\\app\\app.module.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-27T13:36:47.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\angular.json",
+              "RelativeDocumentMoniker": "MyBlog\\angular.json",
+              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\angular.json",
+              "RelativeToolTip": "MyBlog\\angular.json",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAvwCAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-24T13:26:48.452Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 136,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "MyBlog\\src\\app\\app.component.ts",
+              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\app.component.ts",
+              "RelativeToolTip": "MyBlog\\src\\app\\app.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-27T13:46:54.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "home.component.ts",
+              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\home\\home.component.ts",
+              "RelativeDocumentMoniker": "MyBlog\\src\\app\\home\\home.component.ts",
+              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\home\\home.component.ts",
+              "RelativeToolTip": "MyBlog\\src\\app\\home\\home.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-27T13:46:40.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "home.component.html",
               "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\home\\home.component.html",
               "RelativeDocumentMoniker": "MyBlog\\src\\app\\home\\home.component.html",
               "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\home\\home.component.html",
               "RelativeToolTip": "MyBlog\\src\\app\\home\\home.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAIkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-12-24T13:41:56.286Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "home.component.css",
+              "DocumentMoniker": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\home\\home.component.css",
+              "RelativeDocumentMoniker": "MyBlog\\src\\app\\home\\home.component.css",
+              "ToolTip": "C:\\Users\\Yoela\\OneDrive\\Escritorio\\Meine Sachen\\Mein Portfolio projekt\\MyPersonalBlog\\MyBlog\\src\\app\\home\\home.component.css",
+              "RelativeToolTip": "MyBlog\\src\\app\\home\\home.component.css",
+              "ViewState": "AQIAAOIAAAAAAAAAAAAQwAgBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-25T10:04:30.788Z"
             }
           ]
         }

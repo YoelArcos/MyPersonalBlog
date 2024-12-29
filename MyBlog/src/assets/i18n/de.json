@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "projects": "Projekte",
+    "interests": "Interessen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "&lt;/Code, Create, Innovate&gt;",
+    "subtitle": "Hallo, ich bin Yoel Arcos Lopez",
+    "description": "Ich bin begeistert und stolz, Teil dieser aufregenden technologischen Generation zu sein. Mit endlosen Möglichkeiten zum Lernen und Entdecken entfalte ich mich in einer Welt, in der Innovation keine Grenzen kennt. Jeder Tag ist ein Abenteuer und ich bin inspiriert, in diesem dynamischen Bereich zu gestalten, zu forschen und zu wachsen.",
+    "button": "Erfahren Sie mehr über mich"
+  },
+  "about": {
+    "title": "Über mich",
+    "paragraph1": "Meine Reise als Softwareentwickler begann, als ich beschloss, meine Ängste zu überwinden und meinen Traum zu verfolgen, in die IT-Welt einzusteigen. Vor meiner Ausbildung zum Elektriker wollte ich immer ein IT-Experte sein und stellte mir vor, wie ich Spiele modifiziere oder sonstiges hacke. Doch mit 14 war es schwierig, eine Lehrstelle zu finden, also wählte ich einen Weg, der nahe an der Technologie liegt und wurde Elektriker.",
+    "paragraph2": "Nach Abschluss meiner vierjährigen Ausbildung arbeitete ich weitere drei Jahre und übernahm Rollen wie Bauleiter, leitete Projekte und unterstützte größere Vorhaben. Trotz meiner Erfolge fühlte ich mich unerfüllt. Schließlich wurde mir klar, dass ich meinen Kindheitstraum, ein IT-Profi zu werden, tief in mir vergraben hatte.",
+    "paragraph3": "Am 24. August 2023 begann ich mein Studium an der WISS Schule für Wirtschaft Informatik Immobilien und startete ein Praktikum bei <a href='https://www.softart.ch' target='_blank' style='color: #4ade80; text-decoration: none;'><strong>SoftART</strong></a>. Dies war ein Wendepunkt in meiner Entwicklung als Entwickler.",
+    "paragraph4": "Bei SoftART lernte ich, die Softwaregestaltung vor der Programmierung zu priorisieren und gewann wertvolle Einblicke in skalierbare, strukturierte Entwicklungen. Meine Erfahrungen mit der <strong>service-orientierten Architektur (SOA)</strong> und den Lehren von Juval Löwy haben mein Denken und meine Fähigkeiten massgeblich geprägt und mich auf ein professionelles Niveau gesteuert.",
+    "paragraph5": "Ich bin unglaublich dankbar für die Mentoren und Momente, die meinen Weg in der Softwareentwicklung definiert haben.",
+    "button": "Über meine Projekte"
+  },
+  "projects": {
+    "title": "Projekte",
+    "space_invaders": {
+      "title": "Space Invaders",
+      "description": "Dies war eines der ersten Projekte, an denen ich gearbeitet habe. Es wurde in C# mit der Visual Studio IDE entwickelt. Die Benutzeroberfläche wurde mit Windows Forms erstellt. Warum habe ich mich entschieden ein solches Spiel zu entwickeln? Bessere Frage... warum nicht! Jeder liebt Videospiele, besonders die Retro-Spiele und ich bin sicher, dass die Spieleentwicklung irgendwann im Leben eines jeden jungen Programmierers ein großer Traum war."
+    },
+    "unity_snake": {
+      "title": "Unity Snake",
+      "description": "Die Spieleentwicklung hat mich schon immer fasziniert. Ich habe ein 2-Spieler-Snake-Spiel in Unity entwickelt, mit einzigartigen Funktionen wie speziellen Äpfeln, Boostern und potenziellen KI-Schlangen (KI noch in Arbeit). Es hat Spaß gemacht und mir wertvolle Konzepte wie Vektorgeometrie beigebracht."
+    },
+    "multi_calculator": {
+      "title": "Praktikumsprojekt - Multi-Rechner",
+      "description": "Während meines Praktikums bei SoftART habe ich ein Rechnerprojekt in C# mit WPF (Windows Presentation Foundation) entwickelt. Das Projekt folgte einer serviceorientierten Architektur (SOA) und verwendete das MVVM (Model-View-ViewModel)-Muster. Es unterstützt auch die Berechnung und Anzeige verschiedener Funktionen mit dem OxyPlot-Framework."
+    },
+    "tinder_mockup": {
+      "title": "Fullstack-Anwendung - Tinder-App-Mock-Up",
+      "description": "Ich habe eine Fullstack-Anwendung entwickelt, die React.js für das Frontend und Java für das Backend verwendet, mit einer persistenten Datenbank zum Speichern von Matches, Login-Daten und anderen Benutzerinformationen. Diese Anwendung ist nicht vollständig entwickelt, da sie in erster Linie eine Übung war, um zu verstehen, wie Fullstack-Anwendungen funktionieren."
+    },
+    "all_projects": {
+      "title": "Alle anderen Projekte",
+      "description": "In meiner Freizeit arbeite ich hauptsächlich an neuen Projekten zum Spaß und um mit neuen Frameworks auf dem neuesten Stand zu bleiben. Zu diesen Projekten gehören Arbeiten mit Bibliotheken wie I/O mit FileStreams (zum Erstellen von Dateien, Schreiben, Einfügen von Bildern usw.), OxyPlot und viele mehr. Sie können meine anderen Projekte auf meinem GitHub ansehen."
+    },
+    "github_button": "Meine Projekte auf GitHub ansehen"
+  },
+
+  "languages": {
+    "title": "Interessen"
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "description1": "Ich würde mich freuen, von Ihnen zu hören! Ob Sie eine Frage haben, eine Projektidee oder einfach nur in Kontakt treten möchten, zögern Sie nicht, sich zu melden.",
+    "description2": "Sie können mich über das untenstehende Formular oder direkt per E-Mail kontaktieren unter:",
+    "email_button": "Nachricht senden"
+  },
+  "footer": {
+    "text": "© Yoel Arcos Lopez ~2024 Mein Portfolio. Erstellt mit Angular"
+  }
+}
