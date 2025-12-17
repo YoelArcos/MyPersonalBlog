@@ -1,3 +1,43 @@
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .profile-picture {
+    width: 180px;
+    height: 180px;
+    margin-top: 5rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .project-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .contact-text {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+
+
 /* Base styling */
 * {
   margin: 0;
@@ -23,6 +63,7 @@ body {
   justify-content: space-between;
   padding: 0 10%;
   flex-wrap: wrap;
+  background: #0f172a;
 }
 
 .hero-text {
@@ -33,7 +74,7 @@ body {
 .hero-text h1 {
   font-size: 3.5rem;
   font-weight: bold;
-  background: linear-gradient(to right, #4ade80, #3b82f6);
+  background: linear-gradient(to right, rgb(0, 255, 255), #3b82f6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1.2rem;
@@ -43,7 +84,7 @@ body {
   font-size: 3rem;
   font-weight: bold;
   color: #3b82f6; /* Vibrant blue */
-  background: linear-gradient(to right, #9333ea, #f43f5e, #3b82f6);
+  background: linear-gradient(to right, rgb(0, 255, 255), #3b82f6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
@@ -216,25 +257,25 @@ body {
   }
 
   /* About Me Section */
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #3b82f6, #9333ea, #ef4444);
-    padding: 2rem;
-    color: white;
-  }
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #0f172a;
+}
 
-  .about-container {
-    max-width: 1200px;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    padding: 2rem;
-  }
+.about-container {
+  max-width: 1200px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  padding: 2rem;
+  background: #0f172a;
+}
 
   .title {
     font-size: 3rem;
@@ -319,11 +360,11 @@ body {
   }
 
   /* About Section */
-  .about {
-    padding: 5rem 2rem;
-    background: linear-gradient(135deg, #3b82f6, #9333ea, #ef4444);
-    color: white;
-  }
+.about {
+  padding: 5rem 2rem;
+  background: #0f172a;
+  color: white;
+}
 
   .about-container {
     max-width: 1200px;
@@ -368,10 +409,10 @@ body {
   }
 
 .button-aboutprojects {
-    cursor:none;
+  cursor: none;
   text-decoration: none;
   color: white;
-  background: linear-gradient(90deg, #3b82f6, #9333ea, #ef4444);
+  background: linear-gradient(90deg, #4ade80, #3b82f6); /*Hier Farbe ändern.*/
   padding: 10px 25px;
   border-radius: 50px;
   font-size: 1.2rem;
@@ -380,20 +421,21 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
-.button-aboutprojects:hover {
-  background: linear-gradient(90deg, #ef4444, #9333ea, #3b82f6);
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
-}
+  .button-aboutprojects:hover {
+    background: linear-gradient(90deg, #3b82f6, #4ade80);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
 
   /* Projects Section */
-  .projects {
-    padding: 5rem 2rem;
-    background: linear-gradient(135deg, #1e293b, #9333ea, #f43f5e, #3b82f6);
-    background-size: 200% 200%;
-    animation: fadeColor 8s infinite ease-in-out;
-    color: white;
-  }
+.projects {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #1e293b, #9333ea, #f43f5e, #3b82f6);
+  background-size: 200% 200%;
+  /*animation: fadeColor 8s infinite ease-in-out;*/
+  color: white;
+  background: #0f172a;
+}
 
   #spaceShooterpic {
     width: 300px;
@@ -504,7 +546,7 @@ body {
     .project-card .button {
       text-decoration: none;
       color: white;
-      background: linear-gradient(90deg, #3b82f6, #9333ea, #f43f5e);
+      background: linear-gradient(90deg, #4ade80, #3b82f6);
       padding: 10px 25px;
       border-radius: 50px;
       font-size: 1rem;
@@ -514,7 +556,7 @@ body {
     }
 
       .project-card .button:hover {
-        background: linear-gradient(90deg, #f43f5e, #9333ea, #3b82f6);
+        background: linear-gradient(90deg, #3b82f6, #4ade80);
         transform: translateY(-5px);
         box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
       }
@@ -546,7 +588,7 @@ body {
 /* CSS for Programming Languages section */
 .languages {
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #1e293b, #9333ea, #f43f5e, #3b82f6);
+  background: #0f172a;
   background-size: 200% 200%;
   animation: fadeColor 8s infinite ease-in-out;
   color: white;
@@ -632,11 +674,11 @@ body {
   }
 
   /* Contact Section */
-  .contact {
-    padding: 5rem 2rem;
-    background: linear-gradient(135deg, #3b82f6, #9333ea, #ef4444);
-    color: white;
-  }
+.contact {
+  padding: 5rem 2rem;
+  background: #0f172a;
+  color: white;
+}
 
   .contact-container {
     max-width: 1200px;
