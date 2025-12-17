@@ -133,6 +133,56 @@
           <p>{{ 'contact.description1' | translate }}</p>
           <p>{{ 'contact.description2' | translate }}</p>
           <a href="mailto:yoel.arcoslopez@hotmail.com" class="email-link">yoel.arcoslopez&commat;hotmail.com</a>
+
+          <div class="social-icons-container">
+            <a href="https://github.com/YoelArcos"
+               class="social-icon_gitHub"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="GitHub">
+
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12
+0 5.303 3.438 9.8 8.205 11.385
+.6.113.82-.258.82-.577
+0-.285-.01-1.04-.015-2.04
+-3.338.724-4.042-1.61-4.042-1.61
+-.546-1.387-1.333-1.757-1.333-1.757
+-1.089-.745.084-.729.084-.729
+1.205.084 1.84 1.236 1.84 1.236
+1.07 1.835 2.809 1.305 3.495.998
+.108-.776.417-1.305.76-1.605
+-2.665-.3-5.466-1.332-5.466-5.93
+0-1.31.465-2.38 1.235-3.22
+-.135-.303-.54-1.523.105-3.176
+0 0 1.005-.322 3.3 1.23
+.96-.267 1.98-.399 3-.405
+1.02.006 2.04.138 3 .405
+2.28-1.552 3.285-1.23 3.285-1.23
+.645 1.653.24 2.873.12 3.176
+.765.84 1.23 1.91 1.23 3.22
+0 4.61-2.805 5.625-5.475 5.92
+.42.36.81 1.096.81 2.22
+0 1.606-.015 2.896-.015 3.286
+0 .315.21.69.825.57
+C20.565 22.092 24 17.592 24 12.297
+c0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+
+            <a href="https://www.linkedin.com/in/yoel-arcos-lopez-0aa432300/"
+               class="social-icon_linkedIn"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19 0H5C3.343 0 2 1.343 2 3v18c0 1.657 1.343 3 3 3h14c1.657 0 3-1.343 3-3V3c0-1.657-1.343-3-3-3zM8.5 18H5.5v-8h3V18zm-1.5-9.178c-1.043 0-1.5-.687-1.5-1.375s.457-1.375 1.5-1.375c1.043 0 1.5.687 1.5 1.375s-.457 1.375-1.5 1.375zm12.5 9.178h-3v-4.5c0-1.243-.921-2.25-2.25-2.25-1.281 0-2.25.976-2.25 2.25v4.5h-3v-8h3v1.25c.439-.676 1.242-1.25 2.25-1.25 1.309 0 2.25 1.039 2.25 2.25v5.5z" />
+              </svg>
+            </a>
+          </div>
+         
+
+
         </div>
         <form action="https://formspree.io/f/xjkkkwrp" method="POST" class="contact-form">
           <input type="text" name="name" placeholder="{{ 'contact.form_name' | translate }}" required />
@@ -144,9 +194,11 @@
     </div>
   </section>
 
+
   <!-- Footer -->
   <footer class="footer">
     <p>{{ 'footer.text' | translate }}</p>
   </footer>
+  
 </body>
 </html>
