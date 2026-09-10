@@ -9,14 +9,14 @@ import { Component, HostListener } from '@angular/core';
 })
 export class CursorComponent {
   cursorStyle = {
-    left: '0px',
-    top: '0px',
+    left: '-50px',
+    top: '-50px',
   };
 
   @HostListener('document:mousemove', ['$event'])
   onMouseMove(event: MouseEvent): void {
-    this.cursorStyle.left = `${event.pageX}px`;
-    this.cursorStyle.top = `${event.pageY}px`;
+    this.cursorStyle.left = `${event.clientX}px`;
+    this.cursorStyle.top = `${event.clientY}px`;
   }
 
   @HostListener('mouseover', ['$event.target'])
@@ -34,5 +34,3 @@ export class CursorComponent {
   }
 
 }
-
-

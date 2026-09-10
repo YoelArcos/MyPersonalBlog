@@ -7,11 +7,5 @@ import { Component } from '@angular/core';
   standalone: false,
 })
 export class AppComponent {
-  ngOnInit() {
-      throw new Error('Method not implemented.');
-  }
-  forecasts(forecasts: any) {
-      throw new Error('Method not implemented.');
-  }
   title = 'MyBlog';
 }

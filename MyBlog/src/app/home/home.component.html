@@ -1,56 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-<body>
-  <!-- Navigation -->
-  <header class="navbar">
-    <h2>My Portfolio</h2>
-    <ul>
-      <li><a href="#About">{{ 'nav.about' | translate }}</a></li>
-      <li><a href="#Projects">{{ 'nav.projects' | translate }}</a></li>
-      <li><a href="#Languages">{{ 'nav.interests' | translate }}</a></li>
-      <li><a href="#Contact">{{ 'nav.contact' | translate }}</a></li>
-
-      <button class="language-buttons" (click)="switchLanguage('de')">DE</button>
-      <button class="language-buttons" (click)="switchLanguage('en')">EN</button>
-    </ul>
-  </header>
-
-  <!-- Navigation -->
-  <!--<header class="navbar">
-    <h2>My Portfolio</h2>
-    <ul>
-      <li><a href="#About">{{ 'nav.about' | translate }}</a></li>
-      <li><a href="#Projects">{{ 'nav.projects' | translate }}</a></li>
-      <li><a href="#Languages">{{ 'nav.interests' | translate }}</a></li>
-      <li><a href="#Contact">{{ 'nav.contact' | translate }}</a></li>
-
-      <button class="language-buttons" (click)="switchLanguage('de')">DE</button>
-      <button class="language-buttons" (click)="switchLanguage('en')">EN</button>
-    </ul>
-  </header>-->
-  <!-- Introduction Landing page -->
-  <section></section>
+<header class="navbar" (keydown.escape)="closeMenu(true)">
+  <div class="navbar-inner">
+    <a class="brand" href="#top" (click)="closeMenu()">My Portfolio</a>
+    <nav id="main-navigation" class="nav-links" [class.is-open]="menuOpen" [attr.aria-label]="'nav.navigation' | translate">
+      <a href="#About" (click)="closeMenu()">{{ 'nav.about' | translate }}</a>
+      <a href="#Projects" (click)="closeMenu()">{{ 'nav.projects' | translate }}</a>
+      <a href="#Languages" (click)="closeMenu()">{{ 'nav.interests' | translate }}</a>
+      <a href="#Contact" (click)="closeMenu()">{{ 'nav.contact' | translate }}</a>
+    </nav>
+    <div class="language-switch" role="group" [attr.aria-label]="'nav.language' | translate">
+      <button type="button" class="language-buttons" [attr.aria-pressed]="currentLanguage === 'de'" aria-label="Deutsch" (click)="switchLanguage('de')">DE</button>
+      <button type="button" class="language-buttons" [attr.aria-pressed]="currentLanguage === 'en'" aria-label="English" (click)="switchLanguage('en')">EN</button>
+    </div>
+    <button #menuToggle type="button" class="menu-toggle" aria-controls="main-navigation" [attr.aria-expanded]="menuOpen" [attr.aria-label]="(menuOpen ? 'nav.close_menu' : 'nav.open_menu') | translate" (click)="menuOpen = !menuOpen">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path [attr.d]="menuOpen ? 'M6 6l12 12M6 18L18 6' : 'M4 6h16M4 12h16M4 18h16'" /></svg>
+    </button>
+  </div>
+</header>
+<main id="top">
   <section class="hero">
     <div class="hero-text">
-      <h1>&lt;/Code, Create, Innovate&gt;</h1>
+      <p class="eyebrow">&lt;/Code, Create, Innovate&gt;</p>
 
       <h1>{{ 'hero.subtitle' | translate }}</h1>
       <p [innerHTML]="'hero.description' | translate"></p>
       <a href="#About">{{ 'hero.button' | translate }}</a>
     </div>
-    <div class="profile-picture"></div>
+    <div class="profile-picture" role="img" aria-label="Yoel Arcos Lopez"></div>
   </section>
 
   <!-- About me -->
   <section id="About" class="about">
     <div class="about-container">
-      <h1 class="title">{{ 'about.title' | translate }}</h1>
+      <h2 class="title">{{ 'about.title' | translate }}</h2>
       <div class="content-div">
-        <div class="profile-image"></div>
+        <div class="profile-image" role="img" aria-label="Yoel Arcos Lopez"></div>
         <div class="text">
           <p>{{ 'about.paragraph1' | translate }}</p>
           <p>{{ 'about.paragraph2' | translate }}</p>
@@ -66,37 +49,37 @@
   <!-- About my projects -->
   <section id="Projects" class="projects">
     <div class="projects-container">
-      <h1 class="title">{{ 'projects.title' | translate }}</h1>
+      <h2 class="title">{{ 'projects.title' | translate }}</h2>
       <div class="projects-grid">
 
         <div class="project-card">
-          <h2>{{ 'projects.space_invaders.title' | translate }}</h2>
+          <h3>{{ 'projects.space_invaders.title' | translate }}</h3>
           <div id="spaceShooterpic"></div>
           <p>{{ 'projects.space_invaders.description' | translate }}</p>
         </div>
 
         <div class="project-card">
-          <h2>{{ 'projects.unity_snake.title' | translate }}</h2>
+          <h3>{{ 'projects.unity_snake.title' | translate }}</h3>
           <div id="snakeUnity"></div>
           <p>{{ 'projects.unity_snake.description' | translate }}</p>
         </div>
 
         <div class="project-card">
-          <h2 [innerHTML]="'projects.multi_calculator.title' | translate "></h2>
+          <h3 [innerHTML]="'projects.multi_calculator.title' | translate "></h3>
           <div id="sacalc_functionview"></div>
           <p>{{ 'projects.multi_calculator.description' | translate }}</p>
         </div>
 
         <div class="project-card">
-          <h2 [innerHTML]="'projects.tinder_mockup.title' | translate "></h2>
+          <h3 [innerHTML]="'projects.tinder_mockup.title' | translate "></h3>
           <div id="tindermockup"></div>
           <p>{{ 'projects.tinder_mockup.description' | translate }}</p>
         </div>
 
         <div class="project-card">
-          <h2>{{ 'projects.all_projects.title' | translate }}</h2>
+          <h3>{{ 'projects.all_projects.title' | translate }}</h3>
           <p>{{ 'projects.all_projects.description' | translate }}</p>
-          <a href="https://github.com/YoelArcos?tab=repositories" target="_blank" class="button">{{ 'projects.github_button' | translate }}</a>
+          <a href="https://github.com/YoelArcos?tab=repositories" target="_blank" rel="noopener noreferrer" class="button">{{ 'projects.github_button' | translate }}</a>
         </div>
       </div>
     </div>
@@ -105,20 +88,20 @@
   <!-- Programming Languages Section -->
   <section id="Languages" class="languages">
     <div class="languages-container">
-      <h1 class="title">{{ 'languages.title' | translate }}</h1>
+      <h2 class="title">{{ 'languages.title' | translate }}</h2>
       <div class="languages-grid">
 
-        <div class="language-card html"></div>
+        <div class="language-card html" role="img" aria-label="C#"></div>
 
-        <div class="language-card css"></div>
+        <div class="language-card css" role="img" aria-label="Java"></div>
 
-        <div class="language-card javascript"></div>
+        <div class="language-card javascript" role="img" aria-label="HTML"></div>
 
-        <div class="language-card csharp"></div>
+        <div class="language-card csharp" role="img" aria-label="CSS"></div>
 
-        <div class="language-card java"></div>
+        <div class="language-card java" role="img" aria-label="Angular"></div>
 
-        <div class="language-card react"></div>
+        <div class="language-card react" role="img" aria-label="Kali Linux"></div>
 
       </div>
     </div>
@@ -127,7 +110,7 @@
   <!-- Contact -->
   <section id="Contact" class="contact">
     <div class="contact-container">
-      <h1 class="title">{{ 'contact.title' | translate }}</h1>
+      <h2 class="title">{{ 'contact.title' | translate }}</h2>
       <div class="content">
         <div class="contact-text">
           <p>{{ 'contact.description1' | translate }}</p>
@@ -185,9 +168,12 @@ c0-6.627-5.373-12-12-12z" />
 
         </div>
         <form action="https://formspree.io/f/xjkkkwrp" method="POST" class="contact-form">
-          <input type="text" name="name" placeholder="{{ 'contact.form_name' | translate }}" required />
-          <input type="email" name="email" placeholder="{{ 'contact.form_email' | translate }}" required />
-          <textarea name="message" placeholder="{{ 'contact.form_message' | translate }}" rows="5" required></textarea>
+          <label for="contact-name">{{ 'contact.form_name' | translate }}</label>
+          <input id="contact-name" autocomplete="name" type="text" name="name" placeholder="{{ 'contact.form_name' | translate }}" required />
+          <label for="contact-email">{{ 'contact.form_email' | translate }}</label>
+          <input id="contact-email" autocomplete="email" type="email" name="email" placeholder="{{ 'contact.form_email' | translate }}" required />
+          <label for="contact-message">{{ 'contact.form_message' | translate }}</label>
+          <textarea id="contact-message" name="message" placeholder="{{ 'contact.form_message' | translate }}" rows="5" required></textarea>
           <button type="submit" class="button">{{ 'contact.email_button' | translate }}</button>
         </form>
       </div>
@@ -195,10 +181,8 @@ c0-6.627-5.373-12-12-12z" />
   </section>
 
 
+</main>
   <!-- Footer -->
   <footer class="footer">
     <p>{{ 'footer.text' | translate }}</p>
   </footer>
-  
-</body>
-</html>

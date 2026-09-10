@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+* , *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 6rem; color-scheme: dark; }
+body { margin: 0; background: #0f172a; color: #e5edf6; font-family: Arial, sans-serif; line-height: 1.7; -webkit-text-size-adjust: 100%; }
+button, input, textarea { font: inherit; }
+a, button { -webkit-tap-highlight-color: transparent; }
+button, a { touch-action: manipulation; }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #71e4bd; outline-offset: 5px; }
+img, svg { max-width: 100%; }
+/* The green ring replaces the system cursor on devices with a mouse. */
+@media (hover: hover) and (pointer: fine) {
+  html, body, body *, body *::before, body *::after { cursor: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
